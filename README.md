@@ -43,3 +43,10 @@ The following structures are parts of the signals:
 - The signal is printed in a format consistent with JSON.
 - The program terminates after processing the last line of input and printing the last line of output.
 - Reading input from the file input.in and writing output to the file output.out.
+
+## Build
+
+To build and run the project, use the commands: 
+
+#### **make**  
+#### **./task input.in output.in**
