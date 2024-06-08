@@ -1,0 +1,83 @@
+{
+	"ConnectionRequest":	{
+		"header":	{
+			"signalType":	1,
+			"signalSize":	43
+		},
+		"connectionId":	12345,
+		"configPreset":	7,
+		"signalStrength":	512
+	}
+}
+
+{
+	"DownlinkData":	{
+		"header":	{
+			"signalType":	4,
+			"signalSize":	23
+		},
+		"noOfConnections":	2,
+		"connectionDownlinkDataDetails":	[{
+				"connectionId":	12345,
+				"mcs":	13,
+				"tbs":	64,
+				"dataSize":	1000
+			}, {
+				"connectionId":	999999,
+				"mcs":	10,
+				"tbs":	12,
+				"dataSize":	6416
+			}]
+	}
+}
+
+{
+	"ConnectionRequest":	{
+		"header":	{
+			"signalType":	1,
+			"signalSize":	724
+		},
+		"connectionId":	95823,
+		"configPreset":	5,
+		"signalStrength":	239
+	}
+}
+
+{
+	"DownlinkData":	{
+		"header":	{
+			"signalType":	4,
+			"signalSize":	33
+		},
+		"noOfConnections":	3,
+		"connectionDownlinkDataDetails":	[{
+				"connectionId":	54321,
+				"mcs":	10,
+				"tbs":	64,
+				"dataSize":	1000
+			}, {
+				"connectionId":	888888,
+				"mcs":	12,
+				"tbs":	32,
+				"dataSize":	64165
+			}, {
+				"connectionId":	99999,
+				"mcs":	3,
+				"tbs":	15,
+				"dataSize":	1325
+			}]
+	}
+}
+
+{
+	"ConnectionRequest":	{
+		"header":	{
+			"signalType":	1,
+			"signalSize":	43
+		},
+		"connectionId":	543241,
+		"configPreset":	7,
+		"signalStrength":	1000
+	}
+}
+
